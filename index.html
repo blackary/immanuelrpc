@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Immanuel Reformed Presbyterian Church</title>
+    <link href='styles.css' type='text/css' rel='stylesheet' > 
+    <script src='script/util.js' type='text/javascript' >  </script>
+    <!-- <script src='script/protoculous-1.0.2.js' type='text/javascript' > </script> -->
+    <script src='script/prototype.js' type='text/javascript' > </script>
+    <script src='script/scriptaculous.js' type='text/javascript' > </script>        
+    
+</head>
+<body>
+    <div id='loading'>
+        <br /> <br /> <br />
+        <br /> <br /> <br />
+        <img src='images/loading.gif' />
+        <br />
+        <br />        
+        <noscript>
+          <div style='color: #97b0c4;'>Please Enable Javascript</div>
+        </noscript>
+    </div>
+    <div id='doc' class='frame' style='display: none;'>
+        <table cellpadding='0' cellspacing='0'> <tr>
+        <td valign="top">
+            <div class='menu'> 
+                
+                <div id='home'     class='menu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> HOME </div>
+                <div id='about_us' class='menu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> ABOUT US </div>
+                <div id='sub_menu_about_us' class='submenu' style='display: none;'>
+                    <div id='mission'    class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> mission </div>
+                    <div id='identity'   class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> identity </div>                    
+                    <div id='conviction' class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> conviction </div>                    
+                    <div id='leaders' class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> leaders </div>                                        
+                </div>
+                <div id='worship'  class='menu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> WORSHIP </div>
+                <div id='sub_menu_worship' class='submenu' style='display: none;'>
+                    <div id='services' class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> services </div>
+                    <div id='approach' class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> approach </div>                    
+                    <div id='sermons'  class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> sermons </div>                    
+                    <div id='location' class='submenu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> location </div>                                        
+                </div>
+                <div id='calendar' class='menu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> CALENDAR </div>                                                
+                <div id='contact'  class='menu_item' onmouseover="dohover($(this));" onmouseout="doleave($(this));" onclick="doclick($(this));"> CONTACT </div>                                                                
+            </div>        
+        </td>
+        <td>
+            <div class='h_divider'> </div>
+        </td>
+        <td>
+            <div class='page'> 
+
+                <img align='right' src='images/immanuel.gif'>
+                <br>
+                <div style='margin-bottom: 10px;'>&nbsp</div>
+                <div class='color_bar'>&nbsp</div>
+                <div class='v_divider'>&nbsp</div>
+                <table cellpadding='0' cellspacing='0'> <tr>
+                    <td valign='top' class='mytd'>
+                        <div class='content' id='content'>
+                        </div>
+                    </td>
+                    <td> 
+                        <div class='h_divider'> </div> 
+                    </td>
+                    <td valign='top'>
+                        <div class='headline'>
+                            <div id='hl_home'       style='display: none;'> <img src='images/hl_home.gif' />     </div>
+                            <div id='hl_about_us'   style='display: none;'> <img src='images/hl_about_us.gif' /> </div>
+                            <div id='hl_worship'    style='display: none;'> <img src='images/hl_worship.gif' />  </div>
+                            <div id='hl_contact'    style='display: none;'> <img src='images/hl_contact.gif' />  </div>
+                            <div id='hl_calendar'   style='display: none;'> <img src='images/hl_calendar.gif' /> </div>
+                            <div id='hl_mission'    style='display: none;'> <img src='images/hl_mission.gif' /> </div>                            
+                            <div id='hl_identity'   style='display: none;'> <img src='images/hl_identity.gif' /> </div>
+                            <div id='hl_conviction' style='display: none;'> <img src='images/hl_conviction.gif' /> </div>
+                            <div id='hl_leaders'    style='display: none;'> <img src='images/hl_leaders.gif' /> </div>                            
+                            <div id='hl_services'   style='display: none;'> <img src='images/hl_services.gif' /> </div>
+                            <div id='hl_approach'   style='display: none;'> <img src='images/hl_approach.gif' /> </div>
+                            <div id='hl_location'   style='display: none;'> <img src='images/hl_location.gif' /> </div> 
+                            <div id='hl_sermons'    style='display: none;'> <img src='images/hl_sermons.gif' /> </div>
+                        </div>
+                    </td>
+                </tr></table>
+                <div class='v_divider'> </div>
+                <div class='color_bar'> </div>
+                <div class='footer'>
+                    <b>Contact</b>: (765) 320-0077 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Services</b>: 10 a.m. (worship),  5:30 p.m. (teaching service & sunday school) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Directions:</b> <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1893+E+600+N+West+Lafayette,+IN&amp;sll=37.0625,-95.677068&amp;sspn=39.235538,78.574219&amp;ie=UTF8&amp;hq=&amp;hnear=1893+E+600+N,+West+Lafayette,+Tippecanoe,+Indiana+47906&amp;ll=40.499964,-86.868811&amp;spn=0.016317,0.028324&amp;z=14" style="text-align:left;"> map </a>
+                </div>
+                <br /><br /><br />
+            </div>
+        </td>
+            
+        
+        </tr></table>
+    </div>
+    
+    <div id='home_content' style='display: none;'>    
+        <img src='images/home_update.jpg' usemap="#newBuilding" align='right' width='597' height='482' />        
+    </div>
+    <div id='about_us_content' style='display: none;'>    
+    </div>
+    <div id='worship_content' style='display: none;'>    
+    </div>
+    <div id='calendar_content' style='display: none;'>    
+        <div class='headline_div' >        
+            <iframe id='iframe_google_cal' name='iframe_google_cal' src="http://www.google.com/calendar/embed?src=bcsl9pmoc7sr2l1ohifiujin40%40group.calendar.google.com" width=500px frameborder=0 height=500></iframe>
+        </div>
+    </div>
+    <div id='contact_content' style='display: none;'>         
+        <div class='headline_div' >    
+            <table><tr>
+            <td valign='top' style='vertical-align: top;'>
+                <div style='font-weight: bold; font-size: 20px;'>Jared Olivetti, Pastor</div>
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: jared@immanuelrpc.com <br />
+                ph: (765) 320-0077<br />        
+                ad: 1893 E 600 N, West <br /> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lafayette, IN 47906<br />
+                
+                </div>
+    
+                <div style='font-weight: bold; font-size: 20px;'>David Carr, Elder</div>
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: david@davidkarencarr.net <br />
+                ph: (765) 583-4494<br />        
+                </div>
+                
+                <div style='font-weight: bold; font-size: 20px;'>Ben Larson, Elder</div>                     
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: larsons@realemail.net <br />
+                ph: (765) 743-2644 (home) <br />                    
+                ph: (765) 477-3550 (work) <br />
+                </div>                
+                                
+            </td>
+            <td valign='top' style='vertical-align: top;'>
+                <div style='margin-left: 15px;'>
+           
+                <div style='font-weight: bold; font-size: 20px;'>Eric Bibby, Deacon</div>
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: ericbibby@gmail.com <br />
+                ph: (765) 412-6984<br />        
+                </div>
+                            
+                <div style='font-weight: bold; font-size: 20px;'>Nate Pfeiffer, Deacon</div>
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: nate.beka.pfeiffer@me.com <br />
+                ph: (765) 714-6158<br />        
+                </div>
+
+                <div style='font-weight: bold; font-size: 20px;'>Ben Brame, Deacon</div>
+                <div class='indent' style='margin-top: 2px; margin-bottom: 20px;'>
+                e: bbrame@gmail.com <br />
+                ph: (765) 418-0756<br />        
+                </div>
+                            
+                
+                </div>
+            </td>                         
+            </tr></table>
+    
+        </div>    
+    </div>
+    <div id='mission_content' style='display: none;'>    
+        <div class='headline_div' >
+            <img class='content_image' src='images/matthew.jpg' align='right'/>
+
+            <span class='drop_cap'>F</span>
+            or the glory of Christ and the good of his kingdom - that's why we're here. This means our highest duty and greatest joy is worshipping our Creator and Redeemer. Nothing we are or do takes precedence over this truth: that we were created and redeemed in order to worship God. 
+            <p>But why are we here - why this church in this city? We're here because we're convinced that the city and the people of West Lafayette belong to their Creator God and that Christ has much glory to gain from expanding His kingdom here. West Lafayette is a college town of close to 30,000, a number which more than doubles during the academic year. It is a city steeped in intellectual prowess and pride - a city that, more than most, has incredible opportunities to reach the whole world. But it's also a city that lacks a clear, Biblical witness for the doctrines of grace.  </p>
+            <p>While sometimes frustrated with certain prevailing sins, we love West Lafayette and want to see it brought into the service and worship of our King. We trust there are many of God's elect here and we pray He will use us to gather them into the kingdom. We also believe there are many who are longing for a church that proclaims and practices the Word of God with warmth and clarity and conviction. </p>
+        </div>
+    </div>
+    <div id='identity_content' style='display: none;'>    
+        <div class='headline_div' >    
+            <img class='content_image' src='images/lilly_mariah.jpg' align='right'/>
+            
+
+            <span class='drop_cap'>L</span>ike you, our name tells part of our story. <br /> <br /> <br />
+            <div class='section_heading'>Immanuel</div> 
+            Immanuel is one of Jesus' names and means "God with us." This is the heart of IRPC: by faith we are united to Christ and through Him, we are with God. Our union with Christ informs and powers everything we do - it's why we can worship God, it's how we can worship God. It's why we are so bold to call others to be with us, not because we are any wiser or stronger or more attractive than others, but because Christ is with us. <br /><br />
+            <div class='section_heading'>Reformed</div>
+            Reformed is both about our history and <span class='expander_link' onclick='doclick($("conviction"));'>our beliefs</span>. Because of what we believe the Bible teaches, we gladly line up with the reformers and reformation of the 16th century. Most simply, being reformed means that everything we are, do and believe must be founded in God's Word and done for His glory alone. <br /><br />
+            <div class='section_heading'>Presbyterian</div>
+            Presbyterian is about the structure of our church. Practically, it means our church is guided and led by a group of elders and overseen by a larger group of churches called a presbytery. We hate church politics as much as the next guy but we do love being Presbyterian. It means we are freed to follow Christ rather than any one man. It means we are protected from tyranny our elders and the presbytery that oversees them. And though never perfect, the leadership and care of our elders is a regular reminder and picture of our Good Shepherd. <br /><br />
+            <div class='section_heading'>Church</div>
+            Church is a wonderfully loaded term. We are the body of Christ, those called from darkness into light, a city set on a hill, and so on. Perhaps it's easiest to simply say that we have been made a family by God and we seek to live the gospel we preach. 
+            <p>Like you, our name doesn't tell the whole story. If you take the bold step of visiting, you'll find an imperfect group of people, struggling to walk by faith, struggling to love each other with Jesus' love, struggling to show others that same love. We don't mind being weak because it lets Jesus shine through. You'll find a lot of little kids, who are some of our greatest blessings from God. You'll find a church family centered on the Bible-reading, studying, memorizing, singing and preaching it.  </p>
+        </div>
+    </div>
+    <div id='conviction_content' style='display: none;'>    
+        <div class='headline_div' >    
+            <img class='content_image' src='images/dave_ross.jpg' align='right'/>
+
+            
+            <span class='drop_cap'>H</span>ere are things you should know about what we believe:
+            
+            <p>We believe the Bible is totally true and fully authoritative because it is God's Word.</p>
+            
+            <p>We believe the <span class='expander_link' onclick='open_expander("nicene_creed");'>Nicene Creed</span> teaches well what the Bible reveals about God and salvation.
+            <div id='nicene_creed' style='display: none;' class='indent'>
+            <div style='text-align: center;' class='section_heading'>Nicene Creed</div>
+            I believe in one God, the Father Almighty, Maker of heaven and earth, and of all things visible and invisible.
+            <p>And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all worlds; God of God, Light of Light, very God of very God; begotten, not made, being of one substance with the Father, by whom all things were made.</p>        
+            <p>Who, for us men and for our salvation, came down from heaven, and was incarnate by the Holy Spirit of the virgin Mary, and was made man; and was crucified also for us under Pontius Pilate; He suffered and was buried; and the third day He rose again, according to the Scriptures; and ascended into heaven, and sits on the right hand of the Father; and He shall come again, with glory, to judge the quick and the dead; whose kingdom shall have no end.</p>
+            <p>And I believe in the Holy Ghost, the Lord and Giver of Life; who proceeds from the Father and the Son; who with the Father and the Son together is worshipped and glorified; who spoke by the prophets.</p>
+            <p>And I believe in one holy catholic and apostolic Church. I acknowledge one baptism for the remission of sins; and I look for the resurrection of the dead, and the life of the world to come. Amen.</p>
+            </div>
+            
+            <p>We are a confessional church. This means we submit ourselves to the Bible as the ultimate standard and also to the summaries of the Bible's truth in our 
+            <span class='expander_link' onclick='show_text("confession");'>confession</span>, 
+            catechisms 
+            (<span class='expander_link' onclick='show_text("larger_cat");'>larger</span>, 
+            <span class='expander_link' onclick='show_text("shorter_cat");'>shorter</span>) and
+            <span class='expander_link' onclick='show_text("confession");'>testimony</span>.
+            </p>
+            
+            <p>
+            <a href='Constitution04.pdf' onclick='pageTracker._trackPageview("constitution_download");'> <img src='images/download_all_btn.gif' /> </a>
+            </p>
+            
+            <p>As a reformed church, we believe that salvation... </p>
+            
+            <span class='indent'>Is by the grace of God alone, given through Jesus Christ </span> <br />
+            <span class='indent'>Is through faith alone, not through anything we do</span> <br />
+            <span class='indent'>Is only found in Jesus Christ</span> <br />
+            <span class='indent'>Is wonderfully designed to give God all the glory</span> <br />
+            <span class='indent'>Is found and understood only in the Bible.</span> <br />
+        </div>
+    </div>
+    <div id='leaders_content' style='display: none;'>    
+        <div class='headline_div' >    
+            <img class='content_image' src='images/jared.jpg' align='right'/>
+                <div style='font-weight: bold; font-size: 20px;'>Pastor: Jared Olivetti</div>
+                <div class='indent'>                
+					Our pastor, Jared Olivetti, was born in Dayton, Ohio and raised mostly in Indianapolis. He was baptized as an infant at Redeemer Orthodox Presbyterian in Dayton and grew in faith from an early age. His parents and the church faithfully taught him how to walk with Christ throughout his childhood. While training at Purdue University to be a special education teacher, Jared became involved in the Navigators and  through them grew in his passion to see men and women raised up as laborers for Christ's kingdom.
+					<p>While teaching in junior high, Jared began praying about God's call to become a pastor. After seeking counsel, he began an internship with Pastor Dave Long of the Lafayette RPC and then entered the RP seminary in Pittsburgh. Upon graduation in 2004, he became the associate pastor of the Lafayette RPC. Two years later, he was sent out and installed as the church planting pastor of IRPC.</p>
+					<p>Jared and Lisa, his wife of ten years, have four young children.</p>
+                </div>
+            <br />            
+            <img class='content_image_r' src='images/elders.jpg' align='left'/>
+                <div style='font-weight: bold; font-size: 20px;'> Elders: David Carr and Ben Larson</div>
+                <div class='r_indent'>
+					The Bible calls Jesus the Chief Shepherd of His flock, the church. Part of the way Jesus cares for His flock is through the elders, who are often appropriately nicknamed "undershepherds." The role of elders is to watch over the souls of God's people and to care for those souls as shepherds care for sheep. The main duties of the elders are simple: to protect God's people through prayer and to feed them with His Word.
+					<br><br><br>
+                </div>
+            <img class='content_image' src='images/deacons.jpg' align='right'/>                                    
+                <div style='font-weight: bold; font-size: 20px;'> Deacons: Eric Bibby, Nate Pfeiffer, and Ben Brame</div>            
+                <div class='indent'>                                
+                	In the early church, the office of deacon was established because no one could or should do everything in the church. To do and be everything God wants the church to be, the church needs those who can lead in the ministry of mercy and service. That is the mission of our deacons: to lead the congregation in the ministry of mercy which flows from the gospel. They are also responsible for how we act as stewards of God's resources.
+                </div>
+        </div>
+
+    </div>
+    
+    <div id='services_content' style='display: none;'>    
+        <div class='headline_div' >        
+            <img class='content_image' src='images/communion.jpg' align='right'/>
+
+    
+            <!--<span class='drop_cap'>B</span>ible classes for all ages begins at 10:00 every Sunday morning.
+            <div class='indent'>The purpose of our classes is to promote Biblical and theological literacy, to encourage a close and faithful walk with Jesus, and to build skills for ministering Jesus' grace in His world. </div>-->
+            
+            
+            <span class='drop_cap'>W</span>orship begins at 10:00 a.m. and usually lasts 75-90 minutes.
+            <div class='indent'>Read more about the flow and content of our worship under <span class='expander_link' onclick='doclick($("approach"));'>approach</span>.</div>
+            On Sunday evenings, we gather for a time of prayer, singing and classes for all ages.
+            <div class='indent'>Beginning at 5:30 p.m., we spend time singing and praying with and for each other during a time of family worship. Afterwards, we split up into classes for all ages and afterward enjoy a time of fellowship. </div>
+            A nursery is available during all classes and services for children under three. <br > <br >
+
+            The Lord has recently blessed us with a new church building <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1893+E+600+N+West+Lafayette,+IN&amp;sll=37.0625,-95.677068&amp;sspn=39.235538,78.574219&amp;ie=UTF8&amp;hq=&amp;hnear=1893+E+600+N,+West+Lafayette,+Tippecanoe,+Indiana+47906&amp;ll=40.499964,-86.868811&amp;spn=0.016317,0.028324&amp;z=14" style="text-align:left;">(map)</a>.
+            <div class='indent'> 
+                Immanuel Reformed Presbyterian Church <br />
+                1893 E 600 N <br />
+                West Lafayette, IN 47906
+            </div>
+            <br /> 
+        </div>
+    </div>
+    <div id='approach_content' style='display: none;'>    
+        <div class='headline_div' >        
+            <img class='content_image' src='images/nate.jpg' align='right'/>
+
+    
+            <span class='drop_cap'>N</span>othing is more important to the church than worship. Worship is the reason God draws us to Himself and is the central, defining characteristic of His people. <br /> <br />
+            <div class='section_heading'>The Pattern</div>
+            When you come and worship with us, you might notice our worship is patterned on the gospel. We hear God's invitation through the call to worship. We accept the invitation through praise. We hear the Word of God and respond by repenting of our sins. After hearing God's promise of reconciliation, we respond with thanksgiving. God then ministers His Word to us through preaching-sometimes rebuking us, always encouraging us. We respond in faith by singing and praying. God continues to minister to us through the sacraments of communion and baptism. He then sends us out into His world to glorify Christ's name. Here is a <span class='expander_link' onclick='open_expander("order_of_worship");'>sample order of worship.</span> <br /><br />
+            <div id='order_of_worship' style='display: none;' class='indent'>
+               <div style='text-align: center;' class='section_heading' style='padding-bottom: 10px;'>Order Of Worship</div>
+               <table>
+                <tr> <td class='order_of_worship_item'> Call to worship            </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Psalm of praise            </td>  <td class='order_of_worship_detail'> Psalm 98A     </td> </tr>
+                <tr> <td class='order_of_worship_item'> Invocation                 </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Scripture reading          </td>  <td class='order_of_worship_detail'> Leviticus 25  </td> </tr>
+                <tr> <td class='order_of_worship_item'> Psalm of confession        </td>  <td class='order_of_worship_detail'> Psalm 31A     </td> </tr>
+                <tr> <td class='order_of_worship_item'> Promise of reconciliation  </td>  <td class='order_of_worship_detail'> Romans 10:9   </td> </tr>
+                <tr> <td class='order_of_worship_item'> Psalm of thanksgiving      </td>  <td class='order_of_worship_detail'> Psalm 121A    </td> </tr>
+                <tr> <td class='order_of_worship_item'> Scripture reading          </td>  <td class='order_of_worship_detail'> Habakkuk 2:4  </td> </tr>
+                <tr> <td class='order_of_worship_item'> Sermon                     </td>  <td class='order_of_worship_detail'> Live by faith </td> </tr>
+                <tr> <td class='order_of_worship_item'> Prayer of commitment       </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Psalm of faith             </td>  <td class='order_of_worship_detail'> Psalm 25A     </td> </tr>
+                <tr> <td class='order_of_worship_item'> Prayer of supplication     </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Tithes and offerings       </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Psalm of celebration       </td>  <td class='order_of_worship_detail'> Psalm 3B      </td> </tr>
+                <tr> <td class='order_of_worship_item'> Benediction                </td>  <td class='order_of_worship_detail'>               </td> </tr>
+                <tr> <td class='order_of_worship_item'> Doxology                   </td>  <td class='order_of_worship_detail'> Psalm 72F     </td> </tr>
+                </table>
+
+            
+            </div>
+            <div class='section_heading'>The Singing</div>
+            The other thing you'll surely notice is our singing. At Immanuel, we sing exclusively from the Psalms of the Bible and we sing without any musical instruments.  There are a lot of things to say about these unique practices and we'd be more than glad to give you the long version. For a website though, here's the short, short version.
+            <p>Why only Psalms? First, we believe it's what God wants us to do. Second, we absolutely love it. When we sing Psalms, we're singing God's Word, we're memorizing His Word, we're singing the songs that Jesus and the apostles sang and we're singing the only hymnbook the whole church can agree on. What could be better than that?</p> 
+            <p>Why sing without instruments?  Although it seems unusual, most of the church throughout history has recognized that instruments were an important part of the sacrificial system of Old Testament Israel. The book of Hebrews tells us that Jesus has perfectly fulfilled every nook and cranny of that sacrificial system. Thus, to use instruments in worship "would be no more suitable than the burning of incense, the lighting up of lamps, and the restoration of the other shadows of the law." (John Calvin)</p>
+            <p>In case you're wondering, we do love music and only hang up our guitars during worship. </p>
+        </div>    
+    </div>
+    <div id='sermons_content' style='display: none;'>    
+        <div class='headline_div' style='height: 650px; overflow: hidden;'>        
+            <!--Begin SermonAudio Link Button-->
+            <iframe id='iframe_sermon_audio' name='iframe_sermon_audio' src="sermons.html" scrolling="NO" width=600px height=650px frameborder=0 ></iframe>
+            <!--End SermonAudio Link Button-->
+        </div>
+    </div>
+    <div id='location_content' style='display: none;'>    
+        <div class='headline_div'>        
+           <table cellpadding="0" cellspacing="0"><tr>
+                <td valign="top">
+                    <img class='content_image_r' src='images/location_exterior.jpg' border=0 />
+                </td>
+                <td valign="top"><b>
+                    <div style="margin-left: 10px;"> 
+                        Immanuel RPC <br />
+                        1893 E 600 N <br />
+                        West Lafayette, IN 47906 <br />
+                        <br />
+                        (765) 320-0077 <br />
+                    </div>
+                    </b>
+
+                </td>
+            </tr></table>
+            <br />            
+            <table cellpadding="0" cellspacing="0"><tr>
+            <td valign="top">
+                <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td><img id='loc_thumb_8' class='loc_thumb' src='images/loc_thumb_8.jpg' onclick='location_swap_image($(this))'></td>
+                    <td><img id='loc_thumb_7' class='loc_thumb' src='images/loc_thumb_7.jpg' onclick='location_swap_image($(this))'></td>
+                </tr>
+                <tr>
+                    <td><img id='loc_thumb_6' class='loc_thumb' src='images/loc_thumb_6.jpg' onclick='location_swap_image($(this))'></td>
+                    <td><img id='loc_thumb_5' class='loc_thumb' src='images/loc_thumb_5.jpg' onclick='location_swap_image($(this))'></td>
+                </tr>
+                <tr>
+                    <td><img id='loc_thumb_4' class='loc_thumb' src='images/loc_thumb_4.jpg' onclick='location_swap_image($(this))'></td>
+                    <td><img id='loc_thumb_3' class='loc_thumb' src='images/loc_thumb_3.jpg' onclick='location_swap_image($(this))'></td>
+                </tr>
+                <tr>
+                    <td><img id='loc_thumb_2' class='loc_thumb' src='images/loc_thumb_2.jpg' onclick='location_swap_image($(this))'></td>
+                    <td><img id='loc_thumb_1' class='loc_thumb' src='images/loc_thumb_1.jpg' onclick='location_swap_image($(this))'></td>
+                </tr>
+                </table>
+            </td>
+            <td valign="top">
+                <div id='loc_img_8'>
+                    <iframe width="330" height="250" id='iframe_google_map' name="iframe_google_map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1893+E+600+N+West+Lafayette,+IN&amp;sll=37.0625,-95.677068&amp;sspn=39.235538,78.574219&amp;ie=UTF8&amp;hq=&amp;hnear=1893+E+600+N,+West+Lafayette,+Tippecanoe,+Indiana+47906&amp;ll=40.499964,-86.868811&amp;spn=0.016317,0.028324&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1893+E+600+N+West+Lafayette,+IN&amp;sll=37.0625,-95.677068&amp;sspn=39.235538,78.574219&amp;ie=UTF8&amp;hq=&amp;hnear=1893+E+600+N,+West+Lafayette,+Tippecanoe,+Indiana+47906&amp;ll=40.499964,-86.868811&amp;spn=0.016317,0.028324&amp;z=14" style="text-align:left">View Larger Map</a></small>
+                </div>
+                <div id='loc_img_7' style='display: none;'>
+                    <img src='images/loc_img_7.jpg' border="0" /> <br />
+                    Sanctuary [front]
+                </div>
+                <div id='loc_img_6' style='display: none;'>
+                    <img src='images/loc_img_6.jpg' border="0" /> <br />
+                    Sanctuary [back]                    
+                </div>
+                <div id='loc_img_5' style='display: none;'>
+                    <img src='images/loc_img_5.jpg' border="0" /> <br />
+                    Kitchen
+                </div>
+                <div id='loc_img_4' style='display: none;'>
+                    <img src='images/loc_img_4.jpg' border="0" /> <br />
+                    Sunday School Classroom
+                </div>
+                <div id='loc_img_3' style='display: none;'>
+                    <img src='images/loc_img_3.jpg' border="0" /> <br />
+                    Fellowship Hall
+                </div>
+                <div id='loc_img_2' style='display: none;'>
+                    <img src='images/loc_img_2.jpg' border="0" /> <br />
+                    Trails Behind Church
+                </div>
+                <div id='loc_img_1' style='display: none;'>
+                    <img src='images/loc_img_1.jpg' border="0" /> <br />
+                    Trails Behind Church
+                </div>                                                                                                
+            </td>
+            </tr></table>
+        </div>
+    </div>    
+    <div id='shorter_cat_content' style='display: none;'> 
+        <table style='width: 600px;'><tr>
+        <td><img style='cursor: pointer;' src='images/back_btn.gif' onclick='hide_text();' />    </td>
+        <td style='width: 100%;'><div></div></td>
+        <td><a href='Constitution04.pdf'> <img src='images/download_btn.gif' /> </a></td>
+        </tr></table>
+        <iframe id='iframe_shorter_cat' name='iframe_shorter_cat' src="shorter_cat.htm" width=600px height=600px frameborder=0 ></iframe>      
+    </div>    
+    <div id='larger_cat_content' style='display: none;'>
+        <table style='width: 600px;'><tr>
+        <td><img style='cursor: pointer;' src='images/back_btn.gif' onclick='hide_text();' />    </td>
+        <td style='width: 100%;'><div></div></td>
+        <td><a href='Constitution04.pdf'> <img src='images/download_btn.gif' /> </a></td>
+        </tr></table>
+        <iframe id='iframe_larger_cat' name='iframe_larger_cat' src="larger_cat.htm" width=600px height=600px frameborder=0 ></iframe>
+    </div>
+    <div id='confession_content' style='display: none;'>
+        <table style='width: 600px;'><tr>
+        <td><img style='cursor: pointer;' src='images/back_btn.gif' onclick='hide_text();' />    </td>
+        <td style='width: 100%;'><div></div></td>
+        <td><a href='Constitution04.pdf'> <img src='images/download_btn.gif' /> </a></td>
+        </tr></table>
+        <iframe id='iframe_confession' name='iframe_confession' src="confession.htm" width=600px height=600px frameborder=0 ></iframe>
+    </div>
+    <div id='covenant_of_membership_content' style='display: none;'>
+        <table style='width: 600px;'><tr>
+        <td><img style='cursor: pointer;' src='images/back_btn.gif' onclick='hide_text();' />    </td>
+        <td style='width: 100%;'><div></div></td>
+        <td><a href='Constitution04.pdf'> <img src='images/download_btn.gif' /> </a></td>
+        </tr></table>
+        <iframe id='iframe_covenant' name='iframe_covenant' src="covenant_of_membership.htm" width=600px height=600px frameborder=0 ></iframe>
+    </div>
+    <script type="text/javascript">
+        doinit();
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-9732447-1");
+            pageTracker._trackPageview();
+        } catch(err) {
+
+        }    
+    </script>
+</body>
+</html>
