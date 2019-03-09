@@ -1,0 +1,3 @@
+html, body {padding: 0 !important;}
+#adminmenuback, #adminmenuwrap, #wpadminbar, #wpfooter {display: none !important;}
+#wpcontent {margin-left: 0 !important;}

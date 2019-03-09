@@ -1,0 +1,40 @@
+.avia-progress-bar-container {margin: 15px 0;clear: both;}
+.avia-progress-bar {position: relative;margin-bottom: 4px;}
+.avia-progress-bar .progressbar-title-wrap {position: absolute;z-index: 2;bottom: 3px;left: 3px;color: white;background: black;background: rgba(0,0,0,.5);padding: 1px 10px 2px 10px;border-radius: 3px;line-height: 21px;}
+.progressbar-icon {float: left;margin-right: 5px;}
+.icon-bar-no .progressbar-icon {display: none;}
+.progressbar-title {float: left;}
+.avia-progress-bar .progress {width: 100%;height: 30px;line-height: 30px;position: relative;border-radius: 3px;overflow: hidden;box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,.07);}
+#top .avia-progress-bar div.progress .bar-outer, #top .avia-progress-bar div.progress .bar {height: 100%;position: absolute;top: 0;left: 0;width: 100%;background-size: 32px 32px;border-radius: 3px;}
+.av-animated-bar .avia-progress-bar div.progress .bar {-webkit-animation: avia-bg-move 1.2s linear infinite;animation: avia-bg-move 1.2s linear infinite;height: 100%;}
+.avia-progress-bar div.progress {clear: both;}
+.avia_transform #top div.progress .bar-outer {width: 0;}
+.av-small-bar .avia-progress-bar {margin-top: 1.9em;}
+.av-small-bar .avia-progress-bar:first-child {margin-top: 0em;}
+.av-small-bar .avia-progress-bar .progressbar-title-wrap {position: relative;bottom: 0;left: 0;padding: 0;background: none;color: inherit;line-height: 1.65em;font-size: .9em;font-weight: bold;text-transform: uppercase;letter-spacing: .5px;}
+.av-small-bar .avia-progress-bar .progress {height: 10px;line-height: 1em;border-radius: 0px;}
+.progressbar-percent {float: right;opacity: .6;}
+#top .av-small-bar .avia-progress-bar div.progress .bar-outer, #top .av-small-bar .avia-progress-bar div.progress .bar {border-radius: 0px;}
+.avia_transform #top .avia-progress-bar div.progress.avia_start_animation .bar-outer {-webkit-animation: avia_expand 1.5s cubic-bezier(.165,.84,.44,1);animation: avia_expand 1.5s cubic-bezier(.165,.84,.44,1);width: 100%;}
+.grey-bar .bar {background: #555;}
+.av-striped-bar .grey-bar .bar {background-image: -webkit-linear-gradient(-45deg,#666 25%,#444 25%,#444 50%,#666 50%,#666 75%,#444 75%,#444);background-image: -moz-linear-gradient(-45deg,#666 25%,#444 25%,#444 50%,#666 50%,#666 75%,#444 75%,#444);background-image: linear-gradient(-45deg,#666 25%,#444 25%,#444 50%,#666 50%,#666 75%,#444 75%,#444);}
+.blue-bar .bar {background: #7bb0e7;}
+.av-striped-bar .blue-bar .bar {background-image: -webkit-linear-gradient(-45deg,#96c8fb 25%,#74a6d9 25%,#74a6d9 50%,#96c8fb 50%,#96c8fb 75%,#74a6d9 75%,#74a6d9);background-image: -moz-linear-gradient(-45deg,#96c8fb 25%,#74a6d9 25%,#74a6d9 50%,#96c8fb 50%,#96c8fb 75%,#74a6d9 75%,#74a6d9);background-image: linear-gradient(-45deg,#96c8fb 25%,#74a6d9 25%,#74a6d9 50%,#96c8fb 50%,#96c8fb 75%,#74a6d9 75%,#74a6d9);}
+.green-bar .bar {background: #83a846;}
+.av-striped-bar .green-bar .bar {background-image: -webkit-linear-gradient(-45deg,#a5ca68 25%,#83a846 25%,#83a846 50%,#a5ca68 50%,#a5ca68 75%,#83a846 75%,#83a846);background-image: -moz-linear-gradient(-45deg,#a5ca68 25%,#83a846 25%,#83a846 50%,#a5ca68 50%,#a5ca68 75%,#83a846 75%,#83a846);background-image: linear-gradient(-45deg,#a5ca68 25%,#83a846 25%,#83a846 50%,#a5ca68 50%,#a5ca68 75%,#83a846 75%,#83a846);}
+.orange-bar .bar {background: #edae44;}
+.av-striped-bar .orange-bar .bar {background-image: -webkit-linear-gradient(-45deg,#edae44 25%,#ffcf66 25%,#ffcf66 50%,#edae44 50%,#edae44 75%,#ffcf66 75%,#ffcf66);background-image: -moz-linear-gradient(-45deg,#edae44 25%,#ffcf66 25%,#ffcf66 50%,#edae44 50%,#edae44 75%,#ffcf66 75%,#ffcf66);background-image: linear-gradient(-45deg,#edae44 25%,#ffcf66 25%,#ffcf66 50%,#edae44 50%,#edae44 75%,#ffcf66 75%,#ffcf66);}
+.black-bar .bar {background: #222;}
+.av-striped-bar .black-bar .bar {background-image: -webkit-linear-gradient(-45deg,#222 25%,#444 25%,#444 50%,#222 50%,#222 75%,#444 75%,#444);background-image: -moz-linear-gradient(-45deg,#222 25%,#444 25%,#444 50%,#222 50%,#222 75%,#444 75%,#444);background-image: linear-gradient(-45deg,#222 25%,#444 25%,#444 50%,#222 50%,#222 75%,#444 75%,#444);}
+.red-bar .bar {background: #b02b2c;}
+.av-striped-bar .red-bar .bar {background-image: -webkit-linear-gradient(-45deg,#b02b2c 25%,#d24d4e 25%,#d24d4e 50%,#b02b2c 50%,#b02b2c 75%,#d24d4e 75%,#d24d4e);background-image: -moz-linear-gradient(-45deg,#b02b2c 25%,#d24d4e 25%,#d24d4e 50%,#b02b2c 50%,#b02b2c 75%,#d24d4e 75%,#d24d4e);background-image: linear-gradient(-45deg,#b02b2c 25%,#d24d4e 25%,#d24d4e 50%,#b02b2c 50%,#b02b2c 75%,#d24d4e 75%,#d24d4e);}
+.teal-bar .bar {background: #5f8789;}
+.av-striped-bar .teal-bar .bar {background-image: -webkit-linear-gradient(-45deg,#5f8789 25%,#7fa9ab 25%,#7fa9ab 50%,#5f8789 50%,#5f8789 75%,#7fa9ab 75%,#7fa9ab);background-image: -moz-linear-gradient(-45deg,#5f8789 25%,#7fa9ab 25%,#7fa9ab 50%,#5f8789 50%,#5f8789 75%,#7fa9ab 75%,#7fa9ab);background-image: linear-gradient(-45deg,#5f8789 25%,#7fa9ab 25%,#7fa9ab 50%,#5f8789 50%,#5f8789 75%,#7fa9ab 75%,#7fa9ab);}
+.aqua-bar .bar {background: #4ecac2;}
+.av-striped-bar .aqua-bar .bar {background-image: -webkit-linear-gradient(-45deg,#4ecac2 25%,#6fece4 25%,#6fece4 50%,#4ecac2 50%,#4ecac2 75%,#6fece4 75%,#6fece4);background-image: -moz-linear-gradient(-45deg,#4ecac2 25%,#6fece4 25%,#6fece4 50%,#4ecac2 50%,#4ecac2 75%,#6fece4 75%,#6fece4);background-image: linear-gradient(-45deg,#4ecac2 25%,#6fece4 25%,#6fece4 50%,#4ecac2 50%,#4ecac2 75%,#6fece4 75%,#6fece4);}
+.purple-bar .bar {background: #745f7e;}
+.av-striped-bar .purple-bar .bar {background-image: -webkit-linear-gradient(-45deg,#745f7e 25%,#967f9f 25%,#967f9f 50%,#745f7e 50%,#745f7e 75%,#967f9f 75%,#967f9f);background-image: -moz-linear-gradient(-45deg,#745f7e 25%,#967f9f 25%,#967f9f 50%,#745f7e 50%,#745f7e 75%,#967f9f 75%,#967f9f);background-image: linear-gradient(-45deg,#745f7e 25%,#967f9f 25%,#967f9f 50%,#745f7e 50%,#745f7e 75%,#967f9f 75%,#967f9f);}
+.pink-bar .bar {background: #d65799;}
+.av-striped-bar .pink-bar .bar {background-image: -webkit-linear-gradient(-45deg,#d65799 25%,#f879bb 25%,#f879bb 50%,#d65799 50%,#d65799 75%,#f879bb 75%,#f879bb);background-image: -moz-linear-gradient(-45deg,#d65799 25%,#f879bb 25%,#f879bb 50%,#d65799 50%,#d65799 75%,#f879bb 75%,#f879bb);background-image: linear-gradient(-45deg,#d65799 25%,#f879bb 25%,#f879bb 50%,#d65799 50%,#d65799 75%,#f879bb 75%,#f879bb);}
+.silver-bar .bar {background: #d7d7d7;}
+.av-striped-bar .silver-bar .bar {background-image: -webkit-linear-gradient(-45deg,#d7d7d7 25%,#f9f9f9 25%,#f9f9f9 50%,#d7d7d7 50%,#d7d7d7 75%,#f9f9f9 75%,#f9f9f9);background-image: -moz-linear-gradient(-45deg,#d7d7d7 25%,#f9f9f9 25%,#f9f9f9 50%,#d7d7d7 50%,#d7d7d7 75%,#f9f9f9 75%,#f9f9f9);background-image: linear-gradient(-45deg,#d7d7d7 25%,#f9f9f9 25%,#f9f9f9 50%,#d7d7d7 50%,#d7d7d7 75%,#f9f9f9 75%,#f9f9f9);}

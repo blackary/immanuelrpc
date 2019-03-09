@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{slider-title}}</title>
+
+	
+	<link rel="stylesheet" href="../../layerslider/css/layerslider.css"></head><body><p>
+	{{google-fonts}}
+	{{icon-fonts}}
+	
+	<script src="../../layerslider/js/jquery.js"></script>
+	<script src="../../layerslider/js/greensock.js"></script>
+
+	
+	<script src="../../layerslider/js/layerslider.transitions.js"></script>
+	<script src="../../layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+	{{layerslider-plugins}}
+
+</p>
+
+	
+	{{slider-markup}}
+
+
+	
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			{{slider-api}}
+			$('#slider').layerSlider({
+				{{slider-props}}
+			});
+		});
+
+	</script>
+
+</body></html>
