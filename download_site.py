@@ -9,9 +9,12 @@ for p in ['wp-contents', 'wp-includes', 'wp-json']:
     if path.exists():
         shutil.rmtree(path)
 
-Path('index.html').unlink()
+index = Path('index.html')
 
-subprocess.call(['wget', '-N', '-m', '-p', '-E', '-nH', '-k', '--no-if-modified-since', 'https://zan.zqf.mybluehost.me'])
+if index.exists():
+    index.unlink()
+
+subprocess.call(['wget', '-N', '-m', '-p', '-E', '-nH', '-k', '--no-check-certificate', '--no-if-modified-since', 'https://zan.zqf.mybluehost.me'])
 
 with open("index.html") as f:
     soup = BeautifulSoup(f.read(), 'html.parser')
